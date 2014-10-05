@@ -25,4 +25,8 @@ build $builddir/meka-master/meka: download
   name = berenm/meka
   version = master
 
-default $builddir/meka$exeext
+build $builddir/obj/automeka$objext: cxx src/meka/automeka.cpp
+build $builddir/automeka$exeext: exe $builddir/obj/automeka$objext
+  libs = -lboost_filesystem -lboost_system -lboost_regex
+
+default $builddir/automeka$exeext
