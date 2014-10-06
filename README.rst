@@ -1,4 +1,5 @@
 ===============================================
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/berenm/meka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Meka: C++11 meta make prototype.
 ===============================================
 .. image:: https://secure.travis-ci.org/berenm/meka.png?branch=master
